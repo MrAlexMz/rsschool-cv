@@ -1,4 +1,4 @@
-Alexander Mazalo 
+Alexander Mazalo
 
 Contact information:
 
@@ -24,7 +24,7 @@ Code examples:
 
 Work experience: 
 
-    Potern 
+    Porten 
     Pet project. Solo development.
     Vanilla js implementation of front-end for luxury wardrobe items shop.
     https://github.com/MrAlexMz/porten-front-vanilla-js
