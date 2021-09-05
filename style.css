@@ -20,17 +20,23 @@ header article {
 }
 
 h1 {
+  text-align: center;
   font-size: 40px;
 }
 
 h2 {
+  text-align: center;
   font-size: 30px;
+}
+
+p {
+  margin: 20px;
 }
 
 .header-separator {
   display: flex;
   flex-shrink: 0;
-  background: white;
+  background: #e7e6e6;
   width: 1px;
   height: 150px;
   margin: 10px 100px;
@@ -45,6 +51,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #e7e6e6;
 }
 
 .first-info-wrapper,
@@ -57,9 +64,11 @@ main {
 }
 
 section {
+  border-radius: 5%;
+  background-color: rgb(221, 221, 221);
   font-size: 20px;
-  margin: 10px 0px 10px 50px;
-  height: 200px;
+  margin: 20px 0px 20px 50px;
+  height: 210px;
   width: 500px;
 }
 
