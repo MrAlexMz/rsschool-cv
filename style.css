@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body-wrapper {
+  margin: 0 auto;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(235, 235, 235);
+}
+
+.page {
+  width: 1300px;
+  box-shadow: 0px 0px 20px rgba(90, 90, 90, 0.5);
+}
+
+header img {
+  height: 270px;
+  width: 203px;
+  margin: 20px 0px 20px 0px;
+  border-radius: 50%;
+}
+
+header article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  background-color: rgba(197, 196, 194, 255);
+}
+
+.logo {
+  height: 20px;
+  width: 20px;
+  border-radius: 0%;
+}
+
+.contacts li {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  background-color: rgb(102, 101, 101);
+  color: #ffffff;
+  padding: 5px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 20px;
+}
+
+a {
+  color: rgb(235, 72, 235);
+}
+
+.name-and-contact-info {
+  font-size: 20px;
+}
+
+.contacts {
+  list-style-type: none;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  background-color: rgb(102, 101, 101);
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li :hover {
+  color: rgba(197, 196, 194, 255);
+}
+
+.nav li :active {
+  color: rgba(197, 196, 194, 255);
+}
+
+.nav a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 50px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e6e6;
+}
+
+.first-info-wrapper,
+.second-info-wrapper,
+.third-info-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+section {
+  border-radius: 5%;
+  background-color: rgb(221, 221, 221);
+  font-size: 20px;
+  margin: 40px 0px 40px 0px;
+  height: 210px;
+  width: 500px;
+}
+
+.longer-section {
+  height: 400px;
+}
+
+aside {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: rgba(197, 196, 194, 255);
+}
+
+.my-git-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+img.git-icon {
+  height: 100px;
+  width: 100px;
+}
+
+img.rs-school {
+  margin: 40px 0px 40px 0px;
+  height: 111px;
+  width: 300px;
+}
+
+.project-picture {
+  padding-left: 50px;
+  height: 200px;
+  width: 400px;
+}
+
+.date {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1150px) {
+  .first-info-wrapper,
+  .second-info-wrapper,
+  .third-info-wrapper {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  header article {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  aside {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .my-git-link {
+    margin-right: 40px;
+  }
+
+  .name-and-contact-info {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  section {
+    margin: 20px 0px 20px 0px;
+    height: 210px;
+    width: 270px;
+    font-size: 14px;
+  }
+
+  img.rs-school {
+    height: 101px;
+    width: 280px;
+  }
+
+  .name-and-contact-info {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 20px;
+  }
+
+  .project-picture {
+    width: 180px;
+    height: 100px;
+  }
+
+  .nav a {
+    font-size: 16px;
+  }
+
+  .nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
