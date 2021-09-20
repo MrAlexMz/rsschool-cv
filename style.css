@@ -93,6 +93,7 @@ a {
   flex-wrap: wrap;
   gap: 50px;
   background-color: rgb(102, 101, 101);
+  padding: 0;
 }
 
 .nav li {
@@ -188,6 +189,14 @@ img.rs-school {
   font-size: 30px;
 }
 
+.burger-menu {
+  color: #ffffff;
+  background-color: rgb(102, 101, 101);
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+}
+
 @media screen and (max-width: 1150px) {
   .first-info-wrapper,
   .second-info-wrapper,
@@ -254,8 +263,15 @@ img.rs-school {
   }
 
   .nav ul {
-    display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  #hide {
+    display: none;
   }
 }
